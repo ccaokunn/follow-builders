@@ -1,0 +1,373 @@
+{
+  "generatedAt": "2026-05-22T15:42:17.633Z",
+  "products": [
+    {
+      "source": "hackernews",
+      "id": "48228411",
+      "type": "show_hn",
+      "title": "Show HN: Open-source .docx editor library for building document apps",
+      "url": "https://github.com/eigenpal/docx-editor",
+      "hnUrl": "https://news.ycombinator.com/item?id=48228411",
+      "score": 87,
+      "numComments": 16
+    },
+    {
+      "source": "hackernews",
+      "id": "48225596",
+      "type": "show_hn",
+      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+      "url": "https://news.ycombinator.com/item?id=48225596",
+      "hnUrl": "https://news.ycombinator.com/item?id=48225596",
+      "score": 79,
+      "numComments": 98
+    },
+    {
+      "source": "hackernews",
+      "id": "48234287",
+      "type": "show_hn",
+      "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
+      "url": "https://github.com/unprovable/ShadowCat",
+      "hnUrl": "https://news.ycombinator.com/item?id=48234287",
+      "score": 67,
+      "numComments": 28
+    },
+    {
+      "source": "hackernews",
+      "id": "48232060",
+      "type": "show_hn",
+      "title": "Show HN: KVBoost – chunk-level KV cache reuse for HuggingFace, 5–48x faster TTFT",
+      "url": "https://pythongiant.github.io/KVBoost/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48232060",
+      "score": 18,
+      "numComments": 18
+    },
+    {
+      "source": "hackernews",
+      "id": "48231575",
+      "type": "show_hn",
+      "title": "Show HN: Spec-Driven Development Workflow for Claude Code",
+      "url": "https://news.ycombinator.com/item?id=48231575",
+      "hnUrl": "https://news.ycombinator.com/item?id=48231575",
+      "score": 18,
+      "numComments": 8
+    },
+    {
+      "source": "hackernews",
+      "id": "48229518",
+      "type": "show_hn",
+      "title": "Show HN: Smithereen – an early-Facebook-style Fediverse server",
+      "url": "https://smithereen.software",
+      "hnUrl": "https://news.ycombinator.com/item?id=48229518",
+      "score": 10,
+      "numComments": 3
+    },
+    {
+      "source": "hackernews",
+      "id": "48231769",
+      "type": "show_hn",
+      "title": "Show HN: TLS Certificate Management and PKI",
+      "url": "https://news.ycombinator.com/item?id=48231769",
+      "hnUrl": "https://news.ycombinator.com/item?id=48231769",
+      "score": 10,
+      "numComments": 0
+    },
+    {
+      "source": "hackernews",
+      "id": "48236762",
+      "type": "show_hn",
+      "title": "Show HN: Prisma Next – data contracts, migration graphs, agent DX",
+      "url": "https://github.com/prisma/prisma-next",
+      "hnUrl": "https://news.ycombinator.com/item?id=48236762",
+      "score": 8,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48228400",
+      "type": "show_hn",
+      "title": "Show HN: ANML – A machine-first markup language for the agentic web (IETF Draft)",
+      "url": "https://anmlfoundation.org",
+      "hnUrl": "https://news.ycombinator.com/item?id=48228400",
+      "score": 7,
+      "numComments": 4
+    },
+    {
+      "source": "hackernews",
+      "id": "48230244",
+      "type": "show_hn",
+      "title": "Show HN: Free Fonts – a collection of 400+ original, open-source typefaces",
+      "url": "https://www.mixfont.com/fonts",
+      "hnUrl": "https://news.ycombinator.com/item?id=48230244",
+      "score": 7,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48232533",
+      "type": "show_hn",
+      "title": "Show HN: Sylph – the open-source company brain behind my YC startup",
+      "url": "https://github.com/getnao/sylph",
+      "hnUrl": "https://news.ycombinator.com/item?id=48232533",
+      "score": 6,
+      "numComments": 2
+    },
+    {
+      "source": "hackernews",
+      "id": "48227651",
+      "type": "show_hn",
+      "title": "Show HN: Headroom – Loudness normalizer and Key+BPM playlist sorter for DJs",
+      "url": "https://headroom.ravers.workers.dev/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48227651",
+      "score": 6,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48234050",
+      "type": "show_hn",
+      "title": "Show HN: I made an open-source memory layer for agents",
+      "url": "https://agentrecall.cloud",
+      "hnUrl": "https://news.ycombinator.com/item?id=48234050",
+      "score": 6,
+      "numComments": 0
+    },
+    {
+      "source": "hackernews",
+      "id": "48233886",
+      "type": "show_hn",
+      "title": "Show HN: We're building an open-source battery [video]",
+      "url": "https://www.youtube.com/watch?v=xhWBX1eLDr8",
+      "hnUrl": "https://news.ycombinator.com/item?id=48233886",
+      "score": 6,
+      "numComments": 0
+    },
+    {
+      "source": "hackernews",
+      "id": "48224823",
+      "type": "show_hn",
+      "title": "Show HN: Segment Tree visualization",
+      "url": "https://algo-rhythm.dev/en/segment-tree/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48224823",
+      "score": 6,
+      "numComments": 0
+    },
+    {
+      "source": "hackernews",
+      "id": "48228321",
+      "type": "show_hn",
+      "title": "Show HN: Datasette Agent",
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48228321",
+      "score": 5,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48225919",
+      "type": "show_hn",
+      "title": "Show HN: My independent search engine focused on user control",
+      "url": "https://slicksearchhq.com",
+      "hnUrl": "https://news.ycombinator.com/item?id=48225919",
+      "score": 4,
+      "numComments": 5
+    },
+    {
+      "source": "hackernews",
+      "id": "48229752",
+      "type": "show_hn",
+      "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+      "url": "https://github.com/kiloloop/agent-estimate",
+      "hnUrl": "https://news.ycombinator.com/item?id=48229752",
+      "score": 4,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48228106",
+      "type": "show_hn",
+      "title": "Show HN: Anyone interested in a tool helps to explore C++ ASTs",
+      "url": "https://uvic-aurora.github.io/acav-manual/index.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=48228106",
+      "score": 4,
+      "numComments": 1
+    },
+    {
+      "source": "hackernews",
+      "id": "48227955",
+      "type": "show_hn",
+      "title": "Show HN: AI Audiobook Narrator",
+      "url": "https://warblize.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48227955",
+      "score": 4,
+      "numComments": 0
+    },
+    {
+      "source": "yc",
+      "id": "menza",
+      "name": "Menza",
+      "description": "The AI data analyst for consumer brands",
+      "batch": "Winter 2026",
+      "url": "https://menza.ai/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "bidflow",
+      "name": "Bidflow",
+      "description": "AI Takeoffs for Electrical",
+      "batch": "Winter 2026",
+      "url": "https://usebidflow.com",
+      "tags": [
+        "SaaS",
+        "Computer Vision",
+        "Construction",
+        "Infrastructure"
+      ],
+      "industry": "Real Estate and Construction"
+    },
+    {
+      "source": "yc",
+      "id": "galactic-resource-utilization-space-inc-gru-space",
+      "name": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+      "description": "Moon Hotel -> The Intergalactic Construction Company of Earth",
+      "batch": "Winter 2026",
+      "url": "https://gru.space",
+      "tags": [],
+      "industry": "Industrials"
+    },
+    {
+      "source": "yc",
+      "id": "signals",
+      "name": "Signals",
+      "description": "Proactive AI customer support that engages high-value users",
+      "batch": "Winter 2026",
+      "url": "https://www.returnsignals.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "overdrive-health",
+      "name": "Overdrive Health",
+      "description": "AI-Native Medical Billing Services",
+      "batch": "Winter 2026",
+      "url": "https://overdrive.health",
+      "tags": [],
+      "industry": "Healthcare"
+    },
+    {
+      "source": "yc",
+      "id": "autumn-ai",
+      "name": "Autumn AI",
+      "description": "Stalk your prospects at scale.",
+      "batch": "Winter 2026",
+      "url": "https://autumnai.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "pollen",
+      "name": "Pollen",
+      "description": "AI agents that automate customer success",
+      "batch": "Winter 2026",
+      "url": "https://www.pollen.cx/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "button-computer",
+      "name": "Button Computer",
+      "description": "Button is the wearable AI that can talk.",
+      "batch": "Winter 2026",
+      "url": "https://buttoncomputer.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "alt-x",
+      "name": "Alt-X",
+      "description": "Automation for institutional-grade financial modeling in Excel",
+      "batch": "Winter 2026",
+      "url": "https://alt-x.co",
+      "tags": [],
+      "industry": "Fintech"
+    },
+    {
+      "source": "yc",
+      "id": "velum-labs",
+      "name": "Velum Labs",
+      "description": "The OS for data quality across any stack",
+      "batch": "Winter 2026",
+      "url": "https://www.velum-labs.com/",
+      "tags": [
+        "Machine Learning",
+        "Data Engineering"
+      ],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "travo",
+      "name": "Travo",
+      "description": "The data infrastructure for real estate",
+      "batch": "Winter 2026",
+      "url": "https://www.travoai.com/",
+      "tags": [],
+      "industry": "Real Estate and Construction"
+    },
+    {
+      "source": "yc",
+      "id": "agentic-fabriq",
+      "name": "Agentic Fabriq",
+      "description": "Okta for Agents.",
+      "batch": "Winter 2026",
+      "url": "https://www.agenticfabriq.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "captain",
+      "name": "Captain",
+      "description": "Give AI agents accurate knowledge search that scales",
+      "batch": "Winter 2026",
+      "url": "https://runcaptain.com",
+      "tags": [
+        "B2B",
+        "API",
+        "Data Engineering",
+        "Infrastructure"
+      ],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "oxus",
+      "name": "Oxus",
+      "description": "AI-powered automation for internal audit workflows",
+      "batch": "Winter 2026",
+      "url": "https://oxus-ai.com/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "generalastro",
+      "name": "General Astronautics",
+      "description": "Robotics for Space R&D",
+      "batch": "Winter 2026",
+      "url": "https://generalastro.com/",
+      "tags": [],
+      "industry": "Industrials"
+    }
+  ],
+  "stats": {
+    "producthunt": 0,
+    "hackernews": 20,
+    "yc": 15
+  }
+}
