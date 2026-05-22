@@ -1,164 +1,421 @@
 {
-  "generatedAt": "2026-05-22T15:51:40.433Z",
+  "generatedAt": "2026-05-22T16:00:22.747Z",
   "products": [
     {
+      "source": "producthunt",
+      "id": "1104980",
+      "name": "Plurai",
+      "tagline": "Vibe-train evals and guardrails tailored to your use case",
+      "url": "https://www.producthunt.com/products/plurai/launches/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 771,
+      "topics": [
+        "API",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1111197",
+      "name": "Kilo Code v7 for VS Code",
+      "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
+      "url": "https://www.producthunt.com/products/kilocode/launches/kilo-code-v7-for-vs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 744,
+      "topics": [
+        "Open Source",
+        "Software Engineering",
+        "Developer Tools",
+        "GitHub"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1047888",
+      "name": "Clera",
+      "tagline": "An AI agent matching candidates to the right roles.",
+      "url": "https://www.producthunt.com/products/clera/launches/clera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 732,
+      "topics": [
+        "Hiring",
+        "iMessage Apps",
+        "Tech"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1144771",
+      "name": "StoreClaw",
+      "tagline": "Grow your store profits with agents that know how to sell",
+      "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 673,
+      "topics": [
+        "Artificial Intelligence",
+        "E-Commerce",
+        "Marketing automation"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1128324",
+      "name": "RankSpot",
+      "tagline": "AI SEO Blog driven by deep competitor intelligence",
+      "url": "https://www.producthunt.com/products/rankspot/launches/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 660,
+      "topics": [
+        "Marketing",
+        "SEO",
+        "YC Application"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1135604",
+      "name": "PollyReach",
+      "tagline": "Give your agent a real number and voice to make calls.",
+      "url": "https://www.producthunt.com/products/pollyreach?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 646,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Virtual Assistants"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1132023",
+      "name": "Open Wearables",
+      "tagline": "Open infrastructure for wearable-powered health products.",
+      "url": "https://www.producthunt.com/products/open-wearables/launches/open-wearables-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 644,
+      "topics": [
+        "Open Source",
+        "Wearables",
+        "Developer Tools",
+        "GitHub"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1136902",
+      "name": "OpenHuman",
+      "tagline": "An open source AI harness built with the human in mind",
+      "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 637,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1138905",
+      "name": "Velo 2.0",
+      "tagline": "Instantly turn your voice and screen into shareable videos",
+      "url": "https://www.producthunt.com/products/velo-4/launches/velo-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 627,
+      "topics": [
+        "Productivity",
+        "Sales",
+        "Video"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1129378",
+      "name": "Ask Product Hunt AI",
+      "tagline": "Find the right product, just ask",
+      "url": "https://www.producthunt.com/products/producthunt/launches/ask-product-hunt-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 591,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Product Hunt"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1058199",
+      "name": "Spellar 3.0",
+      "tagline": "AI Meeting companion with cross-meeting memory",
+      "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 568,
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1132754",
+      "name": "Postiz",
+      "tagline": "Agentic social media scheduler for agents like OpenClaw",
+      "url": "https://www.producthunt.com/products/postiz/launches/postiz-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 560,
+      "topics": [
+        "Social Media",
+        "Marketing automation",
+        "Social media marketing"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1140630",
+      "name": "Naptick AI",
+      "tagline": "Al sleep companion that helps fall asleep without struggle",
+      "url": "https://www.producthunt.com/products/naptick-ai-sleep-companion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 548,
+      "topics": [
+        "Health & Fitness",
+        "Hardware",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1136553",
+      "name": "Shadow 2.0",
+      "tagline": "The work your meetings create, done before they end",
+      "url": "https://www.producthunt.com/products/shadow-6/launches/shadow-2-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 547,
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "YC Application"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1139974",
+      "name": "Kelviq",
+      "tagline": "Payments, tax, and billing for SaaS & AI companies",
+      "url": "https://www.producthunt.com/products/kelviq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 531,
+      "topics": [
+        "Payments",
+        "SaaS",
+        "Developer Tools"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1138927",
+      "name": "articuler.ai",
+      "tagline": "Describe your goal. Meet the right professional.",
+      "url": "https://www.producthunt.com/products/articuler-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 527,
+      "topics": [
+        "Social Network",
+        "Career",
+        "Community"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1124409",
+      "name": "SocLeads 3.0",
+      "tagline": "Scrape emails from socials and maps by location",
+      "url": "https://www.producthunt.com/products/socleads?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 524,
+      "topics": [
+        "Email",
+        "Social Media",
+        "Marketing"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1134267",
+      "name": "mailX by mailwarm",
+      "tagline": "Email deliverability toolkit for humans and AI agents",
+      "url": "https://www.producthunt.com/products/mailx-by-mailwarm-yc-s20?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 519,
+      "topics": [
+        "Email",
+        "Email Marketing",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1136169",
+      "name": "Fere AI",
+      "tagline": "AI agents that turn signals into crypto + Polymarket trades",
+      "url": "https://www.producthunt.com/products/fere-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 517,
+      "topics": [
+        "Fintech",
+        "Artificial Intelligence",
+        "Web3"
+      ]
+    },
+    {
+      "source": "producthunt",
+      "id": "1139956",
+      "name": "Kanwas",
+      "tagline": "An open-source brain for your team",
+      "url": "https://www.producthunt.com/products/kanwas/launches/kanwas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Radar+%28ID%3A+285643%29",
+      "votesCount": 511,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "source": "yc",
-      "id": "lexius",
-      "name": "Lexius",
-      "description": "AI for Corporate Security Cameras",
+      "id": "celltype",
+      "name": "CellType",
+      "description": "The agentic drug company. We simulate human biology.",
       "batch": "Winter 2026",
-      "url": "https://www.lexius.ai",
+      "url": "https://www.celltype.com",
+      "tags": [],
+      "industry": "Healthcare"
+    },
+    {
+      "source": "yc",
+      "id": "pirislabs",
+      "name": "Piris Labs",
+      "description": "Inference at Light Speed",
+      "batch": "Winter 2026",
+      "url": "https://pirislabs.io/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "asimov",
-      "name": "Asimov",
-      "description": "Real-world human movement data for humanoid robots",
+      "id": "openspec",
+      "name": "OpenSpec",
+      "description": "Plan mode for complex features",
       "batch": "Winter 2026",
-      "url": "https://tryasimov.ai/",
+      "url": "http://openspec.dev",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "carson",
+      "name": "Carson",
+      "description": "Carson is a desktop AI app that generates custom, sharable workspaces",
+      "batch": "Winter 2026",
+      "url": "https://usecarson.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "zerosettle",
+      "name": "ZeroSettle",
+      "description": "Drop-in Direct Billing SDK for In-App Purchases",
+      "batch": "Winter 2026",
+      "url": "https://zerosettle.io",
+      "tags": [],
+      "industry": "Fintech"
+    },
+    {
+      "source": "yc",
+      "id": "kyten-technologies",
+      "name": "Kyten Technologies",
+      "description": "Custom Aerospace-Grade Battery Packs",
+      "batch": "Winter 2026",
+      "url": "https://kytentech.com",
       "tags": [],
       "industry": "Industrials"
     },
     {
       "source": "yc",
-      "id": "shortkit",
-      "name": "shortkit",
-      "description": "Media infra for consumer apps",
+      "id": "avoice",
+      "name": "Avoice",
+      "description": "Harvey for Architecture",
       "batch": "Winter 2026",
-      "url": "https://www.shortkit.dev",
+      "url": "https://avoice.co/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "rev1",
-      "name": "REV1",
-      "description": "Claude Code for Mechanical Engineers",
+      "id": "21st",
+      "name": "21st",
+      "description": "Infrastructure and UI building blocks for the agentic internet",
       "batch": "Winter 2026",
-      "url": "https://rev1.so",
+      "url": "https://21st.dev",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "10x-science",
-      "name": "10x Science",
-      "description": "The AI-native platform for next-generation protein characterization.",
+      "id": "palus-finance",
+      "name": "Palus Finance",
+      "description": "40% higher yields on company cash, in under 5 minutes.",
       "batch": "Winter 2026",
-      "url": "https://10xscience.com",
-      "tags": [
-        "SaaS",
-        "B2B",
-        "Biotech",
-        "AI"
-      ],
-      "industry": "B2B"
+      "url": "https://palus.finance",
+      "tags": [],
+      "industry": "Fintech"
     },
     {
       "source": "yc",
-      "id": "sentrial",
-      "name": "Sentrial",
-      "description": "Datadog for Agent Reliability",
+      "id": "tepali",
+      "name": "Tepali",
+      "description": "AI-native operating system for aesthetics & wellness",
       "batch": "Winter 2026",
-      "url": "https://sentrial.com/",
+      "url": "https://tepali.com",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "legalos",
-      "name": "LegalOS",
-      "description": "The AI-Native Immigration Law Firm",
+      "id": "cumulus-labs",
+      "name": "Cumulus Labs",
+      "description": "The Fastest Multimodal Inference OS",
       "batch": "Winter 2026",
-      "url": "https://www.legalos.ai",
+      "url": "https://cumuluslabs.io",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "cofia",
-      "name": "Cofia",
-      "description": "AI automations that implement themselves",
+      "id": "verdex",
+      "name": "Verdex",
+      "description": "AI Verification for Insurance",
       "batch": "Winter 2026",
-      "url": "https://cofia.ai",
+      "url": "https://www.verdexai.com/",
+      "tags": [],
+      "industry": "Fintech"
+    },
+    {
+      "source": "yc",
+      "id": "autositu",
+      "name": "AutoSitu",
+      "description": "AI-native workspace for development plan reviews",
+      "batch": "Winter 2026",
+      "url": "https://autositu.com/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "protent",
-      "name": "Protent",
-      "description": "Real time intelligence for law enforcement & security teams.",
+      "id": "zatanna",
+      "name": "Zatanna",
+      "description": "Turning all software into agent-first APIs",
       "batch": "Winter 2026",
-      "url": "https://protent.ai",
+      "url": "https://www.zatanna.ai/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "baseframe",
-      "name": "BaseFrame",
-      "description": "Detect what AI can automate for your team",
+      "id": "mousecat",
+      "name": "MouseCat",
+      "description": "AI-powered fraud investigations",
       "batch": "Winter 2026",
-      "url": "https://baseframe.co",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "strand-ai",
-      "name": "Strand AI",
-      "description": "Multimodal foundation models to predict uncollected patient biology",
-      "batch": "Winter 2026",
-      "url": "https://strandai.com",
-      "tags": [],
-      "industry": "Healthcare"
-    },
-    {
-      "source": "yc",
-      "id": "beacon-health",
-      "name": "Beacon Health",
-      "description": "AI Employees for Primary Care",
-      "batch": "Winter 2026",
-      "url": "https://www.beaconhealth.ai/",
-      "tags": [],
-      "industry": "Healthcare"
-    },
-    {
-      "source": "yc",
-      "id": "cascade",
-      "name": "Cascade",
-      "description": "Distilling Proprietary Intelligence",
-      "batch": "Winter 2026",
-      "url": "https://runcascade.com/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "envariant",
-      "name": "Envariant",
-      "description": "Interpretability and reasoning infra for foundation models.",
-      "batch": "Winter 2026",
-      "url": "https://envariant.ai/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "burt",
-      "name": "Burt",
-      "description": "AI teammates for logistics",
-      "batch": "Winter 2026",
-      "url": "https://www.burthq.com/",
+      "url": "https://www.mousecat.ai",
       "tags": [],
       "industry": "B2B"
     }
   ],
   "stats": {
-    "producthunt": 0,
+    "producthunt": 20,
     "hackernews": 0,
     "yc": 15
   }
