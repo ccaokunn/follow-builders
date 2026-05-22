@@ -22,12 +22,10 @@ export async function fetchProductHunt(token, state, errors) {
     return [];
   }
 
-  // postedAfter = start of today UTC
-  const today = new Date();
-  today.setUTCHours(0, 0, 0, 0);
-
+  // featured:true returns today's featured posts (PH curates these daily)
+  // No date filter needed — featured posts are always current day
   const query = `{
-    posts(first: 30, order: VOTES, postedAfter: "${today.toISOString()}") {
+    posts(first: 30, order: VOTES, featured: true) {
       edges {
         node {
           id name tagline url votesCount
