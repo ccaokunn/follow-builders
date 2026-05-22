@@ -242,6 +242,8 @@
     "48234838": 1779464537406,
     "48235309": 1779464537406,
     "48236505": 1779464537406,
+    "48236589": 1779464831128,
+    "48236646": 1779464831128,
     "48236762": 1779464537405
   },
   "seenYCBatch": {
@@ -261,7 +263,22 @@
       "agentic-fabriq",
       "captain",
       "oxus",
-      "generalastro"
+      "generalastro",
+      "vector-legal",
+      "voltair",
+      "crosslayer-labs",
+      "ndea-com",
+      "inviscid-ai",
+      "claimglide",
+      "haladir",
+      "mantis",
+      "catchback-cards",
+      "fullseam",
+      "corvera",
+      "arc-prize-foundation",
+      "valgo",
+      "eos-ai",
+      "hlabs"
     ]
   }
 }
