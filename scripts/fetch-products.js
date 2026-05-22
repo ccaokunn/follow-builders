@@ -46,29 +46,21 @@ export async function fetchProductHunt(token, state, errors) {
       signal: AbortSignal.timeout(15000),
     });
 
-    const rawText = await res.text();
     if (!res.ok) {
-      errors.push(`ProductHunt: HTTP ${res.status} — ${rawText.slice(0, 300)}`);
+      errors.push(`ProductHunt: HTTP ${res.status}`);
       return [];
     }
 
-    let data;
-    try { data = JSON.parse(rawText); } catch {
-      errors.push(`ProductHunt: invalid JSON — ${rawText.slice(0, 300)}`);
-      return [];
-    }
+    const data = await res.json();
     if (data.errors) {
       const msg = data.errors.map(e => e.message).join('; ');
       errors.push(`ProductHunt: GraphQL error — ${msg}`);
       return [];
     }
     if (!data.data) {
-      errors.push(`ProductHunt: no data field — ${rawText.slice(0, 300)}`);
+      errors.push(`ProductHunt: unexpected response`);
       return [];
     }
-    const edges = data.data?.posts?.edges || [];
-    errors.push(`ProductHunt: debug — HTTP ${res.status}, edges count: ${edges.length}`);
-    console.error(`  ProductHunt debug: HTTP ${res.status}, edges: ${edges.length}`);
 
     const results = [];
     for (const edge of data?.data?.posts?.edges || []) {
