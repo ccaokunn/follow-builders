@@ -16,6 +16,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
+import { fetchProductHunt, fetchHackerNews, fetchYCCompanies } from "./fetch-products.js";
 
 // -- Constants ---------------------------------------------------------------
 
@@ -42,15 +43,16 @@ const STATE_PATH = join(SCRIPT_DIR, "..", "state-feed.json");
 
 async function loadState() {
   if (!existsSync(STATE_PATH)) {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, seenProducts: {}, seenYCBatch: null };
   }
   try {
     const state = JSON.parse(await readFile(STATE_PATH, "utf-8"));
-    // Ensure seenArticles exists for older state files
     if (!state.seenArticles) state.seenArticles = {};
+    if (!state.seenProducts) state.seenProducts = {};
+    if (!state.seenYCBatch) state.seenYCBatch = null;
     return state;
   } catch {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, seenProducts: {}, seenYCBatch: null };
   }
 }
 
@@ -66,6 +68,11 @@ async function saveState(state) {
   for (const [id, ts] of Object.entries(state.seenArticles || {})) {
     if (ts < cutoff) delete state.seenArticles[id];
   }
+  // seenProducts: PH and HN items pruned after 7 days
+  for (const [id, ts] of Object.entries(state.seenProducts || {})) {
+    if (ts < cutoff) delete state.seenProducts[id];
+  }
+  // seenYCBatch is NOT time-pruned — it resets when a new batch is detected
   await writeFile(STATE_PATH, JSON.stringify(state, null, 2));
 }
 
@@ -980,15 +987,18 @@ async function main() {
   const tweetsOnly = args.includes("--tweets-only");
   const podcastsOnly = args.includes("--podcasts-only");
   const blogsOnly = args.includes("--blogs-only");
+  const productsOnly = args.includes("--products-only");
 
   // If a specific --*-only flag is set, only that feed type runs.
-  // If no flag is set, all three run.
-  const runTweets = tweetsOnly || (!podcastsOnly && !blogsOnly);
-  const runPodcasts = podcastsOnly || (!tweetsOnly && !blogsOnly);
-  const runBlogs = blogsOnly || (!tweetsOnly && !podcastsOnly);
+  // If no flag is set, all four run.
+  const runTweets = tweetsOnly || (!podcastsOnly && !blogsOnly && !productsOnly);
+  const runPodcasts = podcastsOnly || (!tweetsOnly && !blogsOnly && !productsOnly);
+  const runBlogs = blogsOnly || (!tweetsOnly && !podcastsOnly && !productsOnly);
+  const runProducts = productsOnly || (!tweetsOnly && !podcastsOnly && !blogsOnly);
 
   const xBearerToken = process.env.X_BEARER_TOKEN;
   const pod2txtKey = process.env.POD2TXT_API_KEY;
+  const phToken = process.env.PRODUCT_HUNT_TOKEN; // optional — HN + YC run without it
 
   if (runPodcasts && !pod2txtKey) {
     console.error("POD2TXT_API_KEY not set");
@@ -1083,6 +1093,36 @@ async function main() {
       JSON.stringify(blogFeed, null, 2),
     );
     console.error(`  feed-blogs.json: ${blogContent.length} posts`);
+  }
+
+  // Fetch product sources (Product Hunt + Hacker News + YC)
+  if (runProducts) {
+    console.error("Fetching product content (PH + HN + YC)...");
+
+    const [phItems, hnItems, ycItems] = await Promise.all([
+      fetchProductHunt(phToken, state, errors),
+      fetchHackerNews(state, errors),
+      fetchYCCompanies(state, errors),
+    ]);
+
+    const allProducts = [...phItems, ...hnItems, ...ycItems];
+    console.error(`  Total: ${allProducts.length} new product items`);
+
+    const productFeed = {
+      generatedAt: new Date().toISOString(),
+      products: allProducts,
+      stats: {
+        producthunt: phItems.length,
+        hackernews: hnItems.length,
+        yc: ycItems.length,
+      },
+    };
+
+    await writeFile(
+      join(SCRIPT_DIR, "..", "feed-products.json"),
+      JSON.stringify(productFeed, null, 2),
+    );
+    console.error(`  feed-products.json: ${allProducts.length} items`);
   }
 
   // Save dedup state

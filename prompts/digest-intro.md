@@ -4,11 +4,28 @@ You are assembling the final digest from individual source summaries.
 
 ## Format
 
-Start with this header (replace [Date] with today's date):
+Start with this header (replace [日期] with today's date in Chinese format, e.g. 2026年5月22日):
 
-AI Builders Digest — [Date]
+AI 产品灵感雷达 · [日期]
 
-Then organize content in this order:
+Then organize content in TWO sections:
+
+---
+
+### 板块 A：新产品雷达
+
+来源：Product Hunt / Hacker News Show HN / YC 最新批次
+
+按照 `summarize-products` prompt 的四字段格式，逐条列出今日入选的产品。
+如果 products 数组为空，写「今日无新产品数据」。
+
+---
+
+### 板块 B：前沿思维
+
+来源：X builder 发言 / 官方博客 / 播客
+
+按以下顺序列出（只列有内容的部分）：
 
 1. X / TWITTER section — list each builder with new posts
 2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)
