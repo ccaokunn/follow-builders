@@ -1,175 +1,165 @@
 {
-  "generatedAt": "2026-05-22T15:49:00.372Z",
+  "generatedAt": "2026-05-22T15:51:40.433Z",
   "products": [
     {
-      "source": "hackernews",
-      "id": "48236283",
-      "type": "show_hn",
-      "title": "Show HN: Runner – desktop app for running Claude Code, Codex as a crew",
-      "url": "https://github.com/yicheng47/runner",
-      "hnUrl": "https://news.ycombinator.com/item?id=48236283",
-      "score": 3,
-      "numComments": 0
-    },
-    {
       "source": "yc",
-      "id": "origin-bio",
-      "name": "Origin",
-      "description": "AI and Data for Cancer Therapeutics",
+      "id": "lexius",
+      "name": "Lexius",
+      "description": "AI for Corporate Security Cameras",
       "batch": "Winter 2026",
-      "url": "https://origin.bio/",
-      "tags": [],
-      "industry": "Healthcare"
-    },
-    {
-      "source": "yc",
-      "id": "payna",
-      "name": "Payna",
-      "description": " AI Licensing Agent for Regulated Industries",
-      "batch": "Winter 2026",
-      "url": "https://payna.com/",
+      "url": "https://www.lexius.ai",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "panta",
-      "name": "Panta",
-      "description": "AI Native Commercial Insurance Brokerage ",
+      "id": "asimov",
+      "name": "Asimov",
+      "description": "Real-world human movement data for humanoid robots",
       "batch": "Winter 2026",
-      "url": "https://pantainsure.com",
-      "tags": [],
-      "industry": "Fintech"
-    },
-    {
-      "source": "yc",
-      "id": "didit",
-      "name": "Didit",
-      "description": "Infrastructure for identity and fraud.",
-      "batch": "Winter 2026",
-      "url": "https://didit.me/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "one-robot",
-      "name": "One Robot",
-      "description": "World models for robot evals and training.",
-      "batch": "Winter 2026",
-      "url": "https://www.onerobot.io/",
+      "url": "https://tryasimov.ai/",
       "tags": [],
       "industry": "Industrials"
     },
     {
       "source": "yc",
-      "id": "syntropy",
-      "name": "Syntropy",
-      "description": "The agentic coding app for complex tasks.",
+      "id": "shortkit",
+      "name": "shortkit",
+      "description": "Media infra for consumer apps",
       "batch": "Winter 2026",
-      "url": "https://syntropy.io",
+      "url": "https://www.shortkit.dev",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "kita",
-      "name": "Kita",
-      "description": "Automate credit review for lenders in emerging markets",
+      "id": "rev1",
+      "name": "REV1",
+      "description": "Claude Code for Mechanical Engineers",
       "batch": "Winter 2026",
-      "url": "https://www.usekita.com/",
+      "url": "https://rev1.so",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "10x-science",
+      "name": "10x Science",
+      "description": "The AI-native platform for next-generation protein characterization.",
+      "batch": "Winter 2026",
+      "url": "https://10xscience.com",
       "tags": [
-        "Fintech",
-        "Computer Vision",
-        "Lending",
-        "Emerging Markets"
+        "SaaS",
+        "B2B",
+        "Biotech",
+        "AI"
       ],
-      "industry": "Fintech"
+      "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "klaus-ai",
-      "name": "Klaus AI",
-      "description": "Fast and Safe OpenClaw on the cloud",
+      "id": "sentrial",
+      "name": "Sentrial",
+      "description": "Datadog for Agent Reliability",
       "batch": "Winter 2026",
-      "url": "https://klausai.com",
+      "url": "https://sentrial.com/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "ruma-care",
-      "name": "Ruma Care",
-      "description": "The operations stack for biologic infusion clinics",
+      "id": "legalos",
+      "name": "LegalOS",
+      "description": "The AI-Native Immigration Law Firm",
       "batch": "Winter 2026",
-      "url": "https://rumacare.com",
+      "url": "https://www.legalos.ai",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "cofia",
+      "name": "Cofia",
+      "description": "AI automations that implement themselves",
+      "batch": "Winter 2026",
+      "url": "https://cofia.ai",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "protent",
+      "name": "Protent",
+      "description": "Real time intelligence for law enforcement & security teams.",
+      "batch": "Winter 2026",
+      "url": "https://protent.ai",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "baseframe",
+      "name": "BaseFrame",
+      "description": "Detect what AI can automate for your team",
+      "batch": "Winter 2026",
+      "url": "https://baseframe.co",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "strand-ai",
+      "name": "Strand AI",
+      "description": "Multimodal foundation models to predict uncollected patient biology",
+      "batch": "Winter 2026",
+      "url": "https://strandai.com",
       "tags": [],
       "industry": "Healthcare"
     },
     {
       "source": "yc",
-      "id": "lucent",
-      "name": "Lucent",
-      "description": "AI that automatically improves products from user behavior",
+      "id": "beacon-health",
+      "name": "Beacon Health",
+      "description": "AI Employees for Primary Care",
       "batch": "Winter 2026",
-      "url": "https://lucenthq.com",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "runanywhere",
-      "name": "RunAnywhere",
-      "description": "The default way of running on-device AI at Scale",
-      "batch": "Winter 2026",
-      "url": "https://www.runanywhere.ai/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "lance",
-      "name": "Lance",
-      "description": "AI Agents That Run Hotel Operations.",
-      "batch": "Winter 2026",
-      "url": "https://www.lance.live",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "docura-health",
-      "name": "Docura Health",
-      "description": "AI-Native Med-Legal Firm",
-      "batch": "Winter 2026",
-      "url": "https://docurahealth.com",
+      "url": "https://www.beaconhealth.ai/",
       "tags": [],
       "industry": "Healthcare"
     },
     {
       "source": "yc",
-      "id": "sonarly",
-      "name": "Sonarly",
-      "description": "Makes software self-healing",
+      "id": "cascade",
+      "name": "Cascade",
+      "description": "Distilling Proprietary Intelligence",
       "batch": "Winter 2026",
-      "url": "https://sonarly.com",
+      "url": "https://runcascade.com/",
       "tags": [],
       "industry": "B2B"
     },
     {
       "source": "yc",
-      "id": "axis-2",
-      "name": "Axis",
-      "description": "An AI Copilot for Trading Desks",
+      "id": "envariant",
+      "name": "Envariant",
+      "description": "Interpretability and reasoning infra for foundation models.",
       "batch": "Winter 2026",
-      "url": "https://axisanalysis.com",
+      "url": "https://envariant.ai/",
       "tags": [],
-      "industry": "Fintech"
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "burt",
+      "name": "Burt",
+      "description": "AI teammates for logistics",
+      "batch": "Winter 2026",
+      "url": "https://www.burthq.com/",
+      "tags": [],
+      "industry": "B2B"
     }
   ],
   "stats": {
     "producthunt": 0,
-    "hackernews": 1,
+    "hackernews": 0,
     "yc": 15
   }
 }
