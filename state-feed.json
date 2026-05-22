@@ -241,6 +241,7 @@
     "48234287": 1779464537405,
     "48234838": 1779464537406,
     "48235309": 1779464537406,
+    "48236283": 1779464940145,
     "48236505": 1779464537406,
     "48236589": 1779464831128,
     "48236646": 1779464831128,
@@ -278,7 +279,22 @@
       "arc-prize-foundation",
       "valgo",
       "eos-ai",
-      "hlabs"
+      "hlabs",
+      "origin-bio",
+      "payna",
+      "panta",
+      "didit",
+      "one-robot",
+      "syntropy",
+      "kita",
+      "klaus-ai",
+      "ruma-care",
+      "lucent",
+      "runanywhere",
+      "lance",
+      "docura-health",
+      "sonarly",
+      "axis-2"
     ]
   }
 }

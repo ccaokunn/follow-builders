@@ -1,196 +1,175 @@
 {
-  "generatedAt": "2026-05-22T15:47:11.332Z",
+  "generatedAt": "2026-05-22T15:49:00.372Z",
   "products": [
     {
       "source": "hackernews",
-      "id": "48236646",
+      "id": "48236283",
       "type": "show_hn",
-      "title": "Show HN: Blacknode – Visual workflow builder Claude can drive via MCP",
-      "url": "https://github.com/temiroff/Blacknode",
-      "hnUrl": "https://news.ycombinator.com/item?id=48236646",
-      "score": 3,
-      "numComments": 0
-    },
-    {
-      "source": "hackernews",
-      "id": "48236589",
-      "type": "show_hn",
-      "title": "Show HN: Charm – on-device spelling, grammar, and prediction for macOS",
-      "url": "https://www.theodorehq.com/charm/",
-      "hnUrl": "https://news.ycombinator.com/item?id=48236589",
+      "title": "Show HN: Runner – desktop app for running Claude Code, Codex as a crew",
+      "url": "https://github.com/yicheng47/runner",
+      "hnUrl": "https://news.ycombinator.com/item?id=48236283",
       "score": 3,
       "numComments": 0
     },
     {
       "source": "yc",
-      "id": "vector-legal",
-      "name": "Vector Legal",
-      "description": "Full service ai law firm & software solution, for startups",
+      "id": "origin-bio",
+      "name": "Origin",
+      "description": "AI and Data for Cancer Therapeutics",
       "batch": "Winter 2026",
-      "url": "https://vectorlegal.com",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "voltair",
-      "name": "Voltair",
-      "description": "Autonomous Drones for Earth Observation",
-      "batch": "Winter 2026",
-      "url": "https://voltairlabs.com/",
-      "tags": [],
-      "industry": "Industrials"
-    },
-    {
-      "source": "yc",
-      "id": "crosslayer-labs",
-      "name": "Crosslayer Labs",
-      "description": "Protect, monitor and defend your Internet presence",
-      "batch": "Winter 2026",
-      "url": "https://www.crosslayerlabs.com/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "ndea-com",
-      "name": "Ndea",
-      "description": "Building AGI that can innovate.",
-      "batch": "Winter 2026",
-      "url": "https://ndea.com",
-      "tags": [
-        "Artificial Intelligence",
-        "Deep Learning",
-        "Hard Tech",
-        "Remote Work",
-        "ML"
-      ],
-      "industry": "Industrials"
-    },
-    {
-      "source": "yc",
-      "id": "inviscid-ai",
-      "name": "Inviscid AI",
-      "description": "Real-time Physics Simulations for Industrial Facilities & Data Centers",
-      "batch": "Winter 2026",
-      "url": "https://inviscidai.com/",
-      "tags": [],
-      "industry": "Industrials"
-    },
-    {
-      "source": "yc",
-      "id": "claimglide",
-      "name": "ClaimGlide",
-      "description": "AI automated prior-auths for private medical practices",
-      "batch": "Winter 2026",
-      "url": "https://claimglide.com/",
-      "tags": [
-        "Digital Health",
-        "Healthcare",
-        "AI",
-        "AI Assistant"
-      ],
-      "industry": "Healthcare"
-    },
-    {
-      "source": "yc",
-      "id": "haladir",
-      "name": "Haladir",
-      "description": "Building Operational Superintelligence.",
-      "batch": "Winter 2026",
-      "url": "https://www.haladir.com/",
-      "tags": [
-        "Reinforcement Learning",
-        "Logistics",
-        "Data Engineering",
-        "Operations"
-      ],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "mantis",
-      "name": "Mantis",
-      "description": "Digital Twins of humans",
-      "batch": "Winter 2026",
-      "url": "https://mantisbiotech.com/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "catchback-cards",
-      "name": "CatchBack Cards",
-      "description": "The most thrilling way to create and rip digital collectible packs",
-      "batch": "Winter 2026",
-      "url": "https://catchbackcards.com",
-      "tags": [],
-      "industry": "Consumer"
-    },
-    {
-      "source": "yc",
-      "id": "fullseam",
-      "name": "FullSeam",
-      "description": "AI agents for corporate accounting teams",
-      "batch": "Winter 2026",
-      "url": "https://fullseam.com",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "corvera",
-      "name": "Corvera",
-      "description": "AI agent workforce for CPG back-office",
-      "batch": "Winter 2026",
-      "url": "https://www.corvera.ai/",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "arc-prize-foundation",
-      "name": "ARC Prize Foundation",
-      "description": "AI benchmarks that measure general intelligence and inspire new ideas",
-      "batch": "Winter 2026",
-      "url": "https://arcprize.org/",
-      "tags": [],
-      "industry": "Industrials"
-    },
-    {
-      "source": "yc",
-      "id": "valgo",
-      "name": "Valgo",
-      "description": "Insurance risk layer for physical AI",
-      "batch": "Winter 2026",
-      "url": "https://valgo.ai",
-      "tags": [],
-      "industry": "B2B"
-    },
-    {
-      "source": "yc",
-      "id": "eos-ai",
-      "name": "Eos AI",
-      "description": "Autonomous OS for healthcare",
-      "batch": "Winter 2026",
-      "url": "https://www.helloeos.ai/",
+      "url": "https://origin.bio/",
       "tags": [],
       "industry": "Healthcare"
     },
     {
       "source": "yc",
-      "id": "hlabs",
-      "name": "Hlabs",
-      "description": "US-Made Parts for Robots",
+      "id": "payna",
+      "name": "Payna",
+      "description": " AI Licensing Agent for Regulated Industries",
       "batch": "Winter 2026",
-      "url": "https://www.hlaboratories.com",
+      "url": "https://payna.com/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "panta",
+      "name": "Panta",
+      "description": "AI Native Commercial Insurance Brokerage ",
+      "batch": "Winter 2026",
+      "url": "https://pantainsure.com",
+      "tags": [],
+      "industry": "Fintech"
+    },
+    {
+      "source": "yc",
+      "id": "didit",
+      "name": "Didit",
+      "description": "Infrastructure for identity and fraud.",
+      "batch": "Winter 2026",
+      "url": "https://didit.me/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "one-robot",
+      "name": "One Robot",
+      "description": "World models for robot evals and training.",
+      "batch": "Winter 2026",
+      "url": "https://www.onerobot.io/",
       "tags": [],
       "industry": "Industrials"
+    },
+    {
+      "source": "yc",
+      "id": "syntropy",
+      "name": "Syntropy",
+      "description": "The agentic coding app for complex tasks.",
+      "batch": "Winter 2026",
+      "url": "https://syntropy.io",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "kita",
+      "name": "Kita",
+      "description": "Automate credit review for lenders in emerging markets",
+      "batch": "Winter 2026",
+      "url": "https://www.usekita.com/",
+      "tags": [
+        "Fintech",
+        "Computer Vision",
+        "Lending",
+        "Emerging Markets"
+      ],
+      "industry": "Fintech"
+    },
+    {
+      "source": "yc",
+      "id": "klaus-ai",
+      "name": "Klaus AI",
+      "description": "Fast and Safe OpenClaw on the cloud",
+      "batch": "Winter 2026",
+      "url": "https://klausai.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "ruma-care",
+      "name": "Ruma Care",
+      "description": "The operations stack for biologic infusion clinics",
+      "batch": "Winter 2026",
+      "url": "https://rumacare.com",
+      "tags": [],
+      "industry": "Healthcare"
+    },
+    {
+      "source": "yc",
+      "id": "lucent",
+      "name": "Lucent",
+      "description": "AI that automatically improves products from user behavior",
+      "batch": "Winter 2026",
+      "url": "https://lucenthq.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "runanywhere",
+      "name": "RunAnywhere",
+      "description": "The default way of running on-device AI at Scale",
+      "batch": "Winter 2026",
+      "url": "https://www.runanywhere.ai/",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "lance",
+      "name": "Lance",
+      "description": "AI Agents That Run Hotel Operations.",
+      "batch": "Winter 2026",
+      "url": "https://www.lance.live",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "docura-health",
+      "name": "Docura Health",
+      "description": "AI-Native Med-Legal Firm",
+      "batch": "Winter 2026",
+      "url": "https://docurahealth.com",
+      "tags": [],
+      "industry": "Healthcare"
+    },
+    {
+      "source": "yc",
+      "id": "sonarly",
+      "name": "Sonarly",
+      "description": "Makes software self-healing",
+      "batch": "Winter 2026",
+      "url": "https://sonarly.com",
+      "tags": [],
+      "industry": "B2B"
+    },
+    {
+      "source": "yc",
+      "id": "axis-2",
+      "name": "Axis",
+      "description": "An AI Copilot for Trading Desks",
+      "batch": "Winter 2026",
+      "url": "https://axisanalysis.com",
+      "tags": [],
+      "industry": "Fintech"
     }
   ],
   "stats": {
     "producthunt": 0,
-    "hackernews": 2,
+    "hackernews": 1,
     "yc": 15
   }
 }
