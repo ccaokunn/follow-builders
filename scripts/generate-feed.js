@@ -1108,6 +1108,9 @@ async function main() {
     const allProducts = [...phItems, ...hnItems, ...ycItems];
     console.error(`  Total: ${allProducts.length} new product items`);
 
+    const productErrors = errors.filter((e) =>
+      e.startsWith("ProductHunt") || e.startsWith("HN") || e.startsWith("YC")
+    );
     const productFeed = {
       generatedAt: new Date().toISOString(),
       products: allProducts,
@@ -1116,6 +1119,7 @@ async function main() {
         hackernews: hnItems.length,
         yc: ycItems.length,
       },
+      errors: productErrors.length > 0 ? productErrors : undefined,
     };
 
     await writeFile(

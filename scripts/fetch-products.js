@@ -22,10 +22,9 @@ export async function fetchProductHunt(token, state, errors) {
     return [];
   }
 
-  // featured:true returns today's featured posts (PH curates these daily)
-  // No date filter needed — featured posts are always current day
+  // Simplest valid query — top voted posts, no date filter
   const query = `{
-    posts(first: 30, order: VOTES, featured: true) {
+    posts(first: 30, order: VOTES) {
       edges {
         node {
           id name tagline url votesCount
@@ -54,7 +53,13 @@ export async function fetchProductHunt(token, state, errors) {
 
     const data = await res.json();
     if (data.errors) {
-      errors.push(`ProductHunt: GraphQL error — ${data.errors[0]?.message}`);
+      const msg = data.errors.map(e => e.message).join('; ');
+      errors.push(`ProductHunt: GraphQL error — ${msg}`);
+      console.error(`  ProductHunt GraphQL errors: ${msg}`);
+      return [];
+    }
+    if (!data.data) {
+      errors.push(`ProductHunt: unexpected response — ${JSON.stringify(data).slice(0, 200)}`);
       return [];
     }
 
